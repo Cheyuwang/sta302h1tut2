@@ -9,7 +9,8 @@ install.packages("usethis")
 library(usethis)
 create_github_token()
 ```
-```{r}
+```{r} 
+
 install.packages("gitcreds")
 library(gitcreds)
 gitcreds_set()
@@ -63,6 +64,7 @@ toronto_shelters_clean <-
 head(toronto_shelters_clean)
 
 ```
+
 ```{r}
 library(knitr)
 toronto_shelters_clean |>
